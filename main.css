@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    position: fixed;
+
+}
+.description{
+    height: 899px;
+
+    width: 50%;
+}
+.navbar{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 13%;
+    height: 23px;
+    background-color: black;
+}
+li{
+list-style: none;
+text-decoration: none;
+padding-top: 7px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.image{
+    width: 50%;
+    background-color: black;
+    background-image: url('card5.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.desc2{
+    text-decoration: none;
+    color: black;
+    opacity: 3;
+    padding: 42px;
+    width: 40%;
+}
+h1{
+    font-size: 64px;
+}
+h3{
+    margin-top: 10px;
+}
+p{
+    margin-top: 10px;
+}
+.desc3{
+    display: flex;
+    justify-content: flex-end;
+}
