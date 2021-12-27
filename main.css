@@ -5,6 +5,13 @@
 .left {
     padding: 15px;
     width: 55%;
+    height: 700px;
+    position: fixed;
+}
+.right{
+    width: 45%;
+    background-image: url('card1.png');
+    background-size: cover;
 }
 nav {
     display: flex;
@@ -17,3 +24,36 @@ nav {
 .left nav li {
     margin-bottom: 10px;
 }
+.product{
+    width: 30%;
+}
+a,h1,h3,p{
+    margin-top: 32px ;
+}
+img{
+    display: flex;
+    justify-content: center;
+}
+.info-product{
+    margin-top: 45px;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    font-size: 36px;
+}
+.vl {
+    margin-top: 12px;
+    border-left: 2px solid rgb(5, 5, 5);
+    height: 40px;
+  }
+  .footer{
+      width: 45%;
+      background-color: black;
+      background-size: cover;
+  }
+ 
+  
